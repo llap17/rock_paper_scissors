@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    padding: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+.btn {
+    flex-direction: row;
+    width: 10rem;
+    font-size: 24px;
+    padding: 15px 25px;
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    background-color: darkseagreen;
+}
+
+.btn:active {
+    background-color: darkslategray;
+    transform: translateY(4px);
+}
+
+#results {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5rem;
+}
